@@ -1,0 +1,20 @@
+.designs__container {
+    position: relative;
+    
+}
+
+.lamp {
+    position: absolute;
+    width: 20rem;
+    top: -120%;
+    left: 50%;
+    opacity: 0.7;
+}
+
+.lampOff {
+    left: 43%;
+}
+/* .designs__link {
+    transition: all 1s ease-in-out;
+    
+} */
