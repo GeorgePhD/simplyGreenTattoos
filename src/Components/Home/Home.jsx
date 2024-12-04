@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import LampOn from '../../assets/lampOn.svg';
-import LampOff from '../../assets/lampOff.svg';
+import LampOn from '/lampOn.svg';
+import LampOff from '/lampOff.svg';
 import './home.css';
 const Home = () => {
 

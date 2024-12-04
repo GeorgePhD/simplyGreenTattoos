@@ -1,4 +1,4 @@
-import Logo2 from '../../assets/logo-2.png'
+import Logo2 from '/logo-2.png'
 const Logo = () => {
 
     return (

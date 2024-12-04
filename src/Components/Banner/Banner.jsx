@@ -12,9 +12,11 @@ const Banner = () => {
                     <span className="text-black">
                         - Oferta por tiempo limitado!
                     </span>
-                    <span title="" className="inline-flex items-center justify-center text-sm font-bold text-green-500 transition-all ml-4 duration-200 rounded-md hover:text-red-700" role="button">
-                        Hablémos<svg className="w-4 h-4 ml-1" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
-                    </span>
+                    <a href="https://wa.me/56961107025" target="_blank">
+                        <span title="" className="inline-flex items-center justify-center text-sm font-bold text-green-500 transition-all ml-4 duration-200 rounded-md hover:text-red-700" role="button">
+                            Hablémos<svg className="w-4 h-4 ml-1" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                        </span>
+                    </a>
                     </p>
                 </div>
                 <button className="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-8 max-w-[32px] h-8 max-h-[32px] rounded-lg text-xs text-white hover:bg-white/10 active:bg-white/30 !absolute top-3 right-3" type="button">
