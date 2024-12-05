@@ -9,6 +9,7 @@ import Logo from './Components/Logo/Logo';
 import ImplementosDeTrabajo from './Components/ImplementosDeTrabajo/ImplementosDeTrabajo';
 import Cookies from './Components/Cookies/Cookies';
 import Privacidad from './Components/Privacidad/Privacidad'
+import Consentimiento from './Components/Consentimiento/Consentimiento';
 /* import SocialMedia from './Components/SocialMedia/SocialMedia'; */
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/Designs' element={<Designs />} />
         <Route path='/ImplementosDeTrabajo' element={<ImplementosDeTrabajo />} />
         <Route path='/Privacidad' element={<Privacidad />} />
+        <Route path='/Consentimiento' element={<Consentimiento />} />
         <Route path='/Cookies' element={<Cookies />} />
       </Routes>
       <Footer />
