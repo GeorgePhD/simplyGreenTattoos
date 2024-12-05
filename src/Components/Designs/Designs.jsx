@@ -1,6 +1,6 @@
+import { useEffect } from 'react';
 import './designs.css';
 const Designs = () => {
-  // Example tattoo design images (replace with actual image paths)
     const tattooImages = [
         '/designs-img/1.JPG',
         '/designs-img/2.JPG',
@@ -11,6 +11,10 @@ const Designs = () => {
         '/designs-img/7.jpg',
         '/designs-img/8.jpg',
     ];
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="min-h-screen bg-gray-100 p-8">

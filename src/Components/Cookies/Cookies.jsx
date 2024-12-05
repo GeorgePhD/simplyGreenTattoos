@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 
 const Cookies = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <section className="cookies-info w-full mx-auto mt-2 mb-2 bg-gray-100 py-10 px-5 sm:px-20">

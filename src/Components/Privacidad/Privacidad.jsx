@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom"
 
 const Privacidad = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="bg-gray-100 py-10 px-5 sm:px-20">

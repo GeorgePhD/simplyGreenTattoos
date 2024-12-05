@@ -33,7 +33,7 @@ const Home = () => {
         <div className="flex w-full max-w-7xl">
         {/* First Column - 60% */}
             <div className="w-3/5 p-8 text-center text-black">
-                <h1 className="text-6xl font-bold">Simply<span className="text-green-400">Green</span>  Tattoos</h1>
+                <h1 className="text-6xl font-bold black">Simply<span className="text-green-400">Green</span>  Tattoos</h1>
             </div>
 
         {/* Second Column - 40% */}

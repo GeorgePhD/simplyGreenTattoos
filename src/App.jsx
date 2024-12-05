@@ -10,6 +10,9 @@ import ImplementosDeTrabajo from './Components/ImplementosDeTrabajo/ImplementosD
 import Cookies from './Components/Cookies/Cookies';
 import Privacidad from './Components/Privacidad/Privacidad'
 import Consentimiento from './Components/Consentimiento/Consentimiento';
+import Demos from './Components/Demos/Demos';
+import HomeBtn from './Components/HomeBtn/HomeBtn';
+/* import HomeBtn from './Components/HomeBtn/HomeBtn'; */
 /* import SocialMedia from './Components/SocialMedia/SocialMedia'; */
 function App() {
 
@@ -17,12 +20,15 @@ function App() {
     <>
     <BrowserRouter>
       <Banner />
+      <HomeBtn />
       {/* <SocialMedia /> */}
       <Logo />
       <Routes>
         <Route path='/' element={<Home />} />
+        {/* <Route path='/Home' element={<HomeBtn />} /> */}
         <Route path='*' element={<Navigate to="/" />} />
         <Route path='/Designs' element={<Designs />} />
+        <Route path='/Demos' element={<Demos />} />
         <Route path='/ImplementosDeTrabajo' element={<ImplementosDeTrabajo />} />
         <Route path='/Privacidad' element={<Privacidad />} />
         <Route path='/Consentimiento' element={<Consentimiento />} />

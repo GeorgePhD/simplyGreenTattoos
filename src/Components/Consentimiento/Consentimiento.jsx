@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Consentimiento = () => {
+
     const [formData, setFormData] = useState({
         fullName: "",
         age: "",
@@ -25,6 +26,10 @@ const Consentimiento = () => {
             alert("Debe aceptar los términos y condiciones antes de continuar.");
         }
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="bg-gray-100 py-10 px-5 sm:px-20">
