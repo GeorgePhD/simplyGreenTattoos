@@ -14,14 +14,24 @@
       color: rgb(4, 158, 4);
     }
     & h2 {
-          
+      font-family: 'Playfair Display SC', serif;
+      font-weight: 500;
       color: rgb(4, 211, 4);
     }
 
     & p {
-      color: rgb(33, 33, 33);
+      color: rgb(79, 78, 78);
+      font-size: 1rem;
+      font-family: "Russo One", sans-serif;
+      font-weight: 300;
+      font-style: normal;
     }
 
+    & li {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+      font-style: normal;
+    }
     & .black {
       color: black;
     }
@@ -32,8 +42,14 @@
     
 }
 
-.playfair-display-sc-regular {
-  font-family: 'Playfair Display SC', serif;
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -44,26 +60,3 @@
   font-style: normal;
 }
 
-.playfair-display-sc-black {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.playfair-display-sc-regular-italic {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.playfair-display-sc-bold-italic {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.playfair-display-sc-black-italic {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 900;
-  font-style: italic;
-}

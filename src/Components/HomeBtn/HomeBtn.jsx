@@ -9,7 +9,7 @@ const HomeBtn = () => {
                 </button>
             </Link>
             <Link to="/Home">
-                <button className="w-[130px]  font-semibold text-white bg-green-500 border border-green-500 rounded hover:bg-white hover:text-green-500 hover:border-green-500 p-2 text-sm sm:text-base">
+                <button className="w-[130px] font-semibold text-white bg-green-500 border border-green-500 rounded hover:bg-white hover:text-green-500 hover:border-green-500 p-2 text-sm sm:text-base">
                     Ir a inicio
                 </button>
             </Link>
