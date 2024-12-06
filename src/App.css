@@ -19,8 +19,6 @@
     }
 
     & p {
-      color: #000000;
-      text-transform: lowercase;
       color: rgb(33, 33, 33);
     }
 

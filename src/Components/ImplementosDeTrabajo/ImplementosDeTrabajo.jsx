@@ -1,10 +1,5 @@
 import { useEffect } from "react";
-import Machine from '/public/gear/machine.jpg';
-import Ink from '/public/gear/ink.jpg';
-import Needles from '/public/gear/needles.jpg';
-import Stencil from '/public/gear/stencil.jpg';
-import Cord from '/public/gear/cord.jpg';
-import Chair from '/public/gear/chair.jpg';
+
 const ImplementosDeTrabajo = () => {
 
     useEffect(() => {
@@ -17,37 +12,37 @@ const ImplementosDeTrabajo = () => {
             name: "Tattoo Machine",
             description:
                 "The core tool for tattoo artists, available in rotary or coil models. It helps apply ink into the skin with precision.",
-            img: Machine, // Replace with actual image URL
+            img: "/gear/machine.jpg", // Replace with actual image URL
         },
         {
             name: "Tattoo Ink",
             description:
                 "Specialized ink designed for safe use on human skin, available in a wide range of colors and shades.",
-            img: Ink, // Replace with actual image URL
+            img: "/gear/ink.jpg", // Replace with actual image URL
         },
         {
             name: "Tattoo Needles",
             description:
                 "Different types of needles (liners, shaders) are used depending on the design and detailing required.",
-            img: Needles, // Replace with actual image URL
+            img: "/gear/needles.jpg", // Replace with actual image URL
         },
         {
             name: "Stencil Paper",
             description:
                 "Used to transfer the tattoo design from paper to the skin, ensuring accurate outlines for the artwork.",
-            img: Stencil, // Replace with actual image URL
+            img: "/gear/stencil.jpg", // Replace with actual image URL
         },
         {
             name: "Clip Cord and Power Supply",
             description:
                 "The power source for the tattoo machine, ensuring smooth operation throughout the session.",
-            img: Cord, // Replace with actual image URL
+            img: "/gear/cord.jpg", // Replace with actual image URL
         },
         {
             name: "Tattoo Chair",
             description:
                 "Adjustable chairs for client comfort, making it easier for the artist to work on different body parts.",
-            img: Chair, // Replace with actual image URL
+            img: "/gear/chair.jpg", // Replace with actual image URL
         },
     ];
 

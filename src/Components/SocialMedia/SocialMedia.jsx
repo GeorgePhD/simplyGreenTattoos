@@ -1,5 +1,6 @@
 
 const SocialMedia = () => {
+    
         return (
             <div className="flex gap-4 hover:cursor-pointer">
                 <a href="https://wa.me/56961107025" target="_blank">

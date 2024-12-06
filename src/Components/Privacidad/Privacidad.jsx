@@ -62,14 +62,21 @@ const Privacidad = () => {
                 </section>
 
                 <section>
-                    <h2 className="text-2xl font-semibold text-gray-700 mb-4">6. Contacto</h2>
+                    <h2 className="text-2xl font-semibold text-gray-700 mb-4">6. Formas de pago</h2>
+                    <p className="text-gray-600">
+                        Transferencia, por adelantado, del 50% del valor total del tatuaje. Una vez terminado este proceso, se realiza el pago restante.
+                    </p>
+                    
+                </section>
+                <section>
+                    <h2 className="text-2xl font-semibold text-gray-700 mb-4">7. Contacto</h2>
                     <p className="text-gray-600">
                         Si tiene preguntas relacionadas con nuestra política de privacidad, puede comunicarse con nosotros a través de:
                     </p>
                     <ul className="list-disc list-inside text-gray-600 ml-4">
-                        <li>Correo electrónico: <a href="mailto:correo@example.com" className="text-blue-500 underline">correo@example.com</a></li>
-                        <li>Teléfono: [número]</li>
-                        <li>Dirección: [dirección del estudio]</li>
+                        <li>Correo electrónico: <a href="mailto:eveart@evelynaguilarart.com" className="text-blue-500 underline">eveart@evelynaguilarart.com</a></li>
+                        <li>Teléfono: <a className="text-blue-500 underline" href="https://wa.me/56961107025" target="_blank">+56961107025</a></li>
+                        <li>Dirección: <a className="text-blue-500 underline" href="https://maps.app.goo.gl/p1HUfvEtPS4j8kmf8" target='_blank'>Manuel Montt 464, Curicó</a> (referencia: Frente a mall del valle, en Sabores nativos, segundo piso.) </li>
                     </ul>
                 </section>
             </div>
