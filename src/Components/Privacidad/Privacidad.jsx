@@ -15,7 +15,7 @@ const Privacidad = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">1. Información Recopilada</h2>
                     <p className="text-gray-600 mb-3">
-                        <strong>1.1. A través del sitio web:</strong> Podemos recopilar información personal cuando usted navega por nuestro sitio, se registra o completa formularios en línea. Esto incluye:
+                        <strong>A través del sitio web:</strong> Podemos recopilar información personal cuando usted navega por nuestro sitio, se registra o completa formularios en línea. Esto incluye:
                     </p>
                     <ul className="list-disc list-inside text-gray-600 ml-4">
                         <li>Nombre completo.</li>
@@ -24,7 +24,7 @@ const Privacidad = () => {
                         <li>Consultas específicas (como ideas o diseños de tatuajes).</li>
                     </ul>
                     <p className="text-gray-600 mt-3">
-                        <strong>1.2. Durante la cita para un tatuaje:</strong> Solicitamos información adicional para garantizar su seguridad y personalizar el servicio, tales como historial médico relevante y consentimientos legales.
+                        <strong>Durante la cita para un tatuaje:</strong> Solicitamos información adicional para garantizar su seguridad y personalizar el servicio, tales como historial médico relevante y consentimientos legales.
                     </p>
                 </section>
 
@@ -50,7 +50,7 @@ const Privacidad = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">4. Derechos del Usuario</h2>
                     <p className="text-gray-600">
-                        Usted tiene derecho a acceder, rectificar o eliminar sus datos personales en cualquier momento. Puede contactarnos a través de [correo electrónico] o en nuestro estudio para ejercer estos derechos.
+                        Usted tiene derecho a acceder, rectificar o eliminar sus datos personales en cualquier momento. Puede contactarnos a través de <a href="mailto:eveart@evelynaguilarart.com" className="text-blue-500 underline">eveart@evelynaguilarart.com</a> o en nuestro estudio para ejercer estos derechos.
                     </p>
                 </section>
 
@@ -75,7 +75,7 @@ const Privacidad = () => {
                     </p>
                     <ul className="list-disc list-inside text-gray-600 ml-4">
                         <li>Correo electrónico: <a href="mailto:eveart@evelynaguilarart.com" className="text-blue-500 underline">eveart@evelynaguilarart.com</a></li>
-                        <li>Teléfono: <a className="text-blue-500 underline" href="https://wa.me/56961107025" target="_blank">+56961107025</a></li>
+                        <li>WhatsApp: <a className="text-blue-500 underline" href="https://wa.me/56961107025" target="_blank">contactar!</a></li>
                         <li>Dirección: <a className="text-blue-500 underline" href="https://maps.app.goo.gl/p1HUfvEtPS4j8kmf8" target='_blank'>Manuel Montt 464, Curicó</a> (referencia: Frente a mall del valle, en Sabores nativos, segundo piso.) </li>
                     </ul>
                 </section>

@@ -1,6 +1,17 @@
 import { useEffect, useState } from 'react';
 
 const Designs = () => {
+
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    const handleImageClick = (image) => {
+        setSelectedImage(image); // Set the clicked image as selected
+    };
+
+    const closeModal = () => {
+        setSelectedImage(null); // Close the modal
+    };
+    
     const tattooImages = [
         '/designs-img/1.png',
         '/designs-img/2.png',
@@ -24,19 +35,11 @@ const Designs = () => {
         '/designs-img/20.png',
     ];
 
-    const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
-    const handleImageClick = (image) => {
-        setSelectedImage(image); // Set the clicked image as selected
-    };
-
-    const closeModal = () => {
-        setSelectedImage(null); // Close the modal
-    };
 
     return (
         <div className="min-h-screen bg-gray-100 p-8">

@@ -43,6 +43,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="container flex flex-col items-center justify-center pb-10 mx-auto">
+                <p className="text-base white mb-2">Síguenos en nuestras redes sociales y obten tu descuento del 30% en tu primer tatuaje.</p>
+                <p className="text-sm white">Desarrollado y diseñado por <a className='text-green-500' href="https://www.letsdevelopme.com/" target="_blank">LetsDevelopme</a></p>
+            </div>
         </footer>
     )
 }
