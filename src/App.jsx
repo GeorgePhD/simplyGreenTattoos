@@ -12,6 +12,7 @@ import Privacidad from './Components/Privacidad/Privacidad'
 import Consentimiento from './Components/Consentimiento/Consentimiento';
 import Demos from './Components/Demos/Demos';
 import HomeBtn from './Components/HomeBtn/HomeBtn';
+import Map from './Components/Map/Map';
 /* import HomeBtn from './Components/HomeBtn/HomeBtn'; */
 /* import SocialMedia from './Components/SocialMedia/SocialMedia'; */
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/Consentimiento' element={<Consentimiento />} />
         <Route path='/Cookies' element={<Cookies />} />
       </Routes>
+      <Map />
       <Footer />
     </BrowserRouter>
     </>

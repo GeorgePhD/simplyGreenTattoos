@@ -64,14 +64,14 @@ const Privacidad = () => {
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">6. Formas de pago</h2>
                     <p className="text-gray-600">
-                        Transferencia, por adelantado, del 50% del valor total del tatuaje. Una vez terminado este proceso, se realiza el pago restante.
+                        Transferencia o efectivo, por adelantado, del 50% del valor total del tatuaje. Una vez terminado este proceso, se realiza el pago restante.
                     </p>
                     
                 </section>
                 <section>
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">7. Contacto</h2>
                     <p className="text-gray-600">
-                        Si tiene preguntas relacionadas con nuestra política de privacidad, puede comunicarse con nosotros a través de:
+                        Si tiene preguntas, puede comunicarse con nosotros a través de:
                     </p>
                     <ul className="list-disc list-inside text-gray-600 ml-4">
                         <li>Correo electrónico: <a href="mailto:eveart@evelynaguilarart.com" className="text-blue-500 underline">eveart@evelynaguilarart.com</a></li>
