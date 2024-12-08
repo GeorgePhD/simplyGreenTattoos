@@ -10,7 +10,7 @@ const Privacidad = () => {
     return (
         <div className="bg-gray-100 py-10 px-5 sm:px-20">
             <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
-                <h1 className="text-3xl font-bold text-gray-800 mb-6">Política de Privacidad</h1>
+                <h1 className="title text-start text-3xl font-bold text-gray-800 mb-6">Política de Privacidad</h1>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-gray-700 mb-4">1. Información Recopilada</h2>

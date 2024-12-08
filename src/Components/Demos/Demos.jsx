@@ -62,9 +62,9 @@ const Demos = () => {
     return (
         <section className="bg-gray-100 py-10 px-6">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">
+                <h1 className="title text-3xl font-bold text-start text-gray-800 mb-6">
                     Demos
-                </h2>
+                </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     {demoVideos.map((video, index) => (
                         <div
@@ -81,7 +81,7 @@ const Demos = () => {
                                 ></iframe>
                             </div>
                             <div className="p-4">
-                                <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                                <h3 className="text-lg font-semibold text-green-400 mb-2">
                                     {video.videoTitle}
                                 </h3>
                                 <span className="text-sm text-blue-500">{video.platform}</span>
