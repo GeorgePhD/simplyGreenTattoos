@@ -19,6 +19,11 @@ const HomeBtn = () => {
                     Diseños
                 </button>
             </Link>
+            <Link to="/Shop">
+                <button className="w-[130px] font-semibold text-white bg-green-500 border border-green-500 rounded hover:bg-white hover:text-green-500 hover:border-green-500 p-2 text-sm sm:text-base">
+                    Estudio
+                </button>
+            </Link>
             <Link to="/Demos">
                 <button className="w-[130px] font-semibold text-white bg-green-500 border border-green-500 rounded hover:bg-white hover:text-green-500 hover:border-green-500 p-2 text-sm sm:text-base">
                     Demos

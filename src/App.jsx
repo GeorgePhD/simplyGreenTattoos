@@ -13,6 +13,7 @@ import Consentimiento from './Components/Consentimiento/Consentimiento';
 import Demos from './Components/Demos/Demos';
 import HomeBtn from './Components/HomeBtn/HomeBtn';
 import Map from './Components/Map/Map';
+import Shop from './Components/Shop/Shop';
 /* import HomeBtn from './Components/HomeBtn/HomeBtn'; */
 /* import SocialMedia from './Components/SocialMedia/SocialMedia'; */
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='*' element={<Navigate to="/" />} />
         <Route path='/Designs' element={<Designs />} />
         <Route path='/Demos' element={<Demos />} />
+        <Route path='/Shop' element={<Shop />} />
         <Route path='/ImplementosDeTrabajo' element={<ImplementosDeTrabajo />} />
         <Route path='/Privacidad' element={<Privacidad />} />
         <Route path='/Consentimiento' element={<Consentimiento />} />
