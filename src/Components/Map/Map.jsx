@@ -6,7 +6,7 @@ const MapEmbed = () => {
             <div className="flex flex-col items-center justify-center flex-1 basis-1/2">
                 <h1 className="text-4xl font-bold mb-6 text-center">Nuestra Ubicación</h1>
                 <p className="text-4xl font-bold text-center">Puedes encontrarnos en Manuel Montt 464, Curicó.</p>
-                <p className="text-4xl font-bold text-center">referencia: Frente a mall del valle, en Sabores nativos, segundo piso.</p>
+                <p className="text-4xl font-bold text-center">referencia: Frente a mall del valle, junto a Sabores nativos en el segundo piso.</p>
             </div>
             <div className="flex items-center justify-center w-full max-w-4xl aspect-video border-0 mx-auto flex-1 basis-1/2">
                 <iframe

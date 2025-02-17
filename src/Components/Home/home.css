@@ -9,7 +9,7 @@ body {
 
 .designs__container {
     position: relative;
-    
+    transition: all 2000ms ease-in-out;
 }
 
 .lamp {
@@ -20,8 +20,15 @@ body {
     opacity: 0.7;
 }
 
-.lampOff {
-    left: 43%;
+.lamp.lampOn {
+    position: absolute;
+    width: 20rem;
+    top: -120%;
+    left: 36% !important;
+    opacity: 0.7;
+}
+.lamp.lampOff {
+    left: 29% !important;
 }
 /* .designs__link {
     transition: all 1s ease-in-out;

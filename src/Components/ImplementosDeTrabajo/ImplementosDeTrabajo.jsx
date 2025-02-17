@@ -39,7 +39,7 @@ const ImplementosDeTrabajo = () => {
             img: "/gear/cord.jpg", // Replace with actual image URL
         },
         {
-            name: "Tattoo Chair",
+            name: "Silla o camilla ajustable para tatuajes",
             description:
                 "Adjustable chairs for client comfort, making it easier for the artist to work on different body parts.",
             img: "/gear/chair.jpg", // Replace with actual image URL

@@ -16,8 +16,8 @@ const SocialMedia = () => {
                     <a href="https://www.linkedin.com/in/evelyn-aguilar-s%C3%A1nchez-744766115/" target="_blank">
                         <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
                     </a>
-                    <a href="mailto:eveart@evelynaguilarart.com" target="_blank">
-                        <img src="https://www.svgrepo.com/show/349378/gmail.svg" width="30" height="30" alt="inst" />
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=eveart@evelynaguilarart.com&su=Contacto%20desde%20página%20web&body=Hola%20Evelyn%0A%0A%20Necesito%20información%20con%20respecto%20a..." target="_blank">
+                        <img src="https://www.svgrepo.com/show/349378/gmail.svg" width="30" height="30" alt="Gmail" />
                     </a>
                 </div>
             </div>
